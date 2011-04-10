@@ -1,0 +1,66 @@
+<h1>Persons Form</h1>
+
+<p>This is a simple form which captures details of a user, please fill out all the fields required</p>
+
+<%= form_for @persons do |f| %>
+
+<table border="0">
+  <tr>
+    <td><%= f.label :name %></td>
+    <td><%= f.text_field :name %></td></p>
+    <td> <font color="red"><sup>*</sup></font> </td>
+  </tr>  
+  
+  <tr>
+    <td><%= f.label :surname %></td>
+    <td><%= f.text_field :surname %></td></p>
+    <td> <font color="red"><sup>*</sup></font> </td>
+  </tr>
+ 
+  <tr>
+    <td> <%= f.label :age %></td>
+    <td><%= f.text_field :age %></td></p>
+    <td> <font color="red"><sup>*</sup></font> </td>
+  </tr>
+
+  <tr>
+    <td><%= f.label :gender %></td>
+    <td> <%= f.select :gender, (['','Male', 'Female']).to_a.map(&:to_s) %></td></p>
+    <td> <font color="red"><sup>*</sup></font> </td>
+  </tr>
+  
+  <tr>
+    <td><%= f.label :income %></td>
+    <td><%= f.text_field :income %></td></p>
+  </tr>  
+
+  <tr>
+    <td><%= f.label :email %></td>
+    <td><%= f.text_field :email %></td></p>
+    <td> <font color="red"><sup>*</sup></font> </td>
+  </tr>
+
+  <tr>
+    <td><%= f.label :postcode %></td>
+    <td><%= f.text_field :postcode %></td></p>
+    <td> <font color="red"><sup>*</sup></font> </td>
+  </tr>
+
+  <tr>
+    <td><%= f.label :msisdn %></td>
+    <td><%= f.text_field :msisdn %></td></p>
+    <td> <font color="red"><sup>*</sup></font> </td>
+  </tr>
+</table>
+  <p>
+  <p>
+  <p>
+  <p>
+  <p> 
+  <p>
+  <p>
+  <p>    
+  <%= f.submit "Save" %>
+
+<% end %>
+

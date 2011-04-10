@@ -8,7 +8,21 @@
 </head>
 <body>
 
+    <header>
+      <%= image_tag("mig.jpg",:size => "60x60", :alt => "Sample App", :class => "round") %>
+      <nav class="round">
+        <ul>
+          <li><%= link_to "Home", '#' %></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+
+
 <%= yield %>
 
 </body>
 </html>
+
