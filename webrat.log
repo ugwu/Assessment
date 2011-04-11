@@ -1,0 +1,20 @@
+# Logfile created on Mon Apr 11 20:25:44 +0100 2011 by logger.rb/22285
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Jake", "postcode"=>"", "gender"=>"", "msisdn"=>"", "income"=>"", "age"=>"", "surname"=>"", "email"=>""}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Jake", "postcode"=>"", "gender"=>"", "msisdn"=>"", "income"=>"", "age"=>"", "surname"=>"", "email"=>""}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Jake", "postcode"=>"", "gender"=>"", "msisdn"=>"", "income"=>"", "age"=>"", "surname"=>"", "email"=>""}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Jake", "postcode"=>"", "gender"=>"", "msisdn"=>"", "income"=>"", "age"=>"", "surname"=>"", "email"=>""}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Jake", "postcode"=>"", "gender"=>"", "msisdn"=>"", "income"=>"", "age"=>"", "surname"=>"", "email"=>""}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Jake", "postcode"=>"", "gender"=>"", "msisdn"=>"", "income"=>"", "age"=>"", "surname"=>"", "email"=>""}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Jake", "postcode"=>"", "gender"=>"", "msisdn"=>"", "income"=>"", "age"=>"", "surname"=>"", "email"=>""}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Jake", "postcode"=>"", "gender"=>"", "msisdn"=>"", "income"=>"", "age"=>"", "surname"=>"", "email"=>""}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}

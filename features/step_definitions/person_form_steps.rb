@@ -30,3 +30,4 @@ end
 Then /^the person form should be valid$/ do
   Person.all.count.should == 1
 end
+

@@ -1,16 +1,9 @@
 Assessment::Application.routes.draw do
 
-  get "persons/index"
-
-  get "persons/new"
-
-  get "persons/create"
-
-  get "persons/show"
-
-  get "persons/edit"
-  
   resources :people
+  root :to => 'people#index'
+  
+
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

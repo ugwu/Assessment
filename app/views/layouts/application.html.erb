@@ -12,14 +12,11 @@
       <%= image_tag("mig.jpg",:size => "60x60", :alt => "Sample App", :class => "round") %>
       <nav class="round">
         <ul>
-          <li><%= link_to "Home", '#' %></li>
+          <li><%= link_to "Home", people_path %></li>
         </ul>
       </nav>
     </header>
-
-
-
-
+     <%= debug(params) if Rails.env.development? %>
 
 <%= yield %>
 

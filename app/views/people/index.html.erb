@@ -1,0 +1,36 @@
+<h1>Persons Home Page</h1>
+<p>This is the home page. Here you will see a list of all the people enlisted. It might be empty now but as you add people it shall duly populate.</p>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Age</th>
+    <th>Gender</th>
+    <th>Income</th>
+    <th>Email</th>
+    <th>Postcode</th>
+    <th>MSISDN</th>
+  </tr>
+
+<% @persons.each do |person| %>
+  <tr>
+    <td><%= person.name %></td>
+    <td><%= person.surname %></td>
+	<td><%= person.age %></td>
+    <td><%= person.gender %></td>
+	<td><%= person.income %></td>
+    <td><%= person.email %></td>
+    <td><%= person.postcode %></td>
+    <td><%= person.msisdn %></td>
+    <td><%= link_to 'Show', person %></td>
+    <td><%= link_to 'Edit', edit_person_path(person) %></td>
+    <td><%= link_to 'Destroy', person, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<p><%= link_to 'Add a new person', new_person_path %>
+
+
+<br />

@@ -16,3 +16,4 @@ And I fill "Email" with "charlesdickens@foo.com"
 And I fill "Postcode" with "SW1 7ED"
 And I fill "Msisdn" with "07901111111"
 Then the person form should be valid
+

@@ -1,0 +1,51 @@
+<h1><%= @persons.name %> <%= @persons.surname %></h1>
+<p>Find me in app/views/persons/show.html.erb</p>
+
+<p>
+  <b>Name:</b>
+  <%= @persons.name %>
+</p>
+
+<p>
+  <b>Surname:</b>
+  <%= @persons.surname %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%= @persons.age %>
+</p>
+
+<p>
+  <b>Gender:</b>
+  <%= @persons.gender %>
+</p>
+
+<p>
+  <b>Income:</b>
+  <%= @persons.income %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @persons.email %>
+</p>
+
+<p>
+  <b>Postcode:</b>
+  <%= @persons.email %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @persons.email %>
+</p>
+
+<p>
+  <b>MSISDN:</b>
+  <%= @persons.msisdn %>
+</p>
+
+
+<%= link_to 'Edit', edit_person_path(@user) %> |
+<%= link_to 'Back', people_path %>
