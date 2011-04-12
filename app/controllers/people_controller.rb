@@ -1,5 +1,6 @@
 class PeopleController < ApplicationController
   def index
+    @title = "Assessment"
     @persons = Person.all
     respond_to do |format|
       format.html # index.html.erb
@@ -8,10 +9,11 @@ class PeopleController < ApplicationController
   end
 
   def new
+    @title = "New Person"
     @persons = Person.new
     respond_to do |format|
       format.html # new.html.erb
-      # format.xml  { render :xml => @user }
+      format.xml  { render :xml => @persons }
     end
   end
 
@@ -21,7 +23,7 @@ class PeopleController < ApplicationController
     respond_to do |format|
       if @persons.save
         format.html { redirect_to(@persons, :notice => 'User was successfully created.') }
-        # format.xml  { render :xml => @persons, :status => :created, :location => @persons }
+        format.xml  { render :xml => @persons, :status => :created, :location => @persons }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @persons.errors, :status => :unprocessable_entity }
@@ -30,6 +32,7 @@ class PeopleController < ApplicationController
   end
 
   def show
+    @title = "Assessment"
     @persons = Person.find(params[:id])
     
     respond_to do |format|
@@ -39,6 +42,7 @@ class PeopleController < ApplicationController
   end
 
   def edit
+    @title = "Edit"
     @persons = Person.find(params[:id])
   end
   
