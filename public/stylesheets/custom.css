@@ -6,6 +6,12 @@ body {
   background: white;
   font-family: arial;
   font-size: 14px;
+  
+}
+
+#center
+ {
+  text-align:justify;	
 }
 
 header {
@@ -52,4 +58,14 @@ a:hover {
 
 a:visited {
   color: #069;
+}
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  color: red; 
 }

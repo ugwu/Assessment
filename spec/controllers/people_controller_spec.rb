@@ -2,7 +2,6 @@ require 'spec_helper'
 require 'pp'
 
 describe PeopleController do
-  render_views
   
   describe "POST Create" do
     

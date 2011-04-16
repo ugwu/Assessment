@@ -1,6 +1,8 @@
 <h1><%= @persons.name %> <%= @persons.surname %></h1>
 <p>Find me in app/views/persons/show.html.erb</p>
 
+
+<%=flash[:notice]%>
 <p>
   <b>Name:</b>
   <%= @persons.name %>
@@ -8,7 +10,7 @@
 
 <p>
   <b>Surname:</b>
-  <%= @persons.surname %>
+  <%= @persons.surname.upcase %>
 </p>
 
 <p>
@@ -26,11 +28,7 @@
   <%= @persons.income %>
 </p>
 
-<p>
-  <b>Email:</b>
-  <%= @persons.email %>
-</p>
-
+<!--Remember that there is a label swap here-->
 <p>
   <b>Postcode:</b>
   <%= @persons.email %>
@@ -38,8 +36,13 @@
 
 <p>
   <b>Email:</b>
-  <%= @persons.email %>
+  <%= @persons.postcode %>
 </p>
+
+<!-- <p>
+  <b>Email:</b>
+  <%= @persons.email %>
+</p> -->
 
 <p>
   <b>MSISDN:</b>

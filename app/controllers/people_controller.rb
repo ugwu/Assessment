@@ -62,7 +62,11 @@ class PeopleController < ApplicationController
   
   def destroy
     @persons = Person.find(params[:id])
-    @persons.destroy
+    if @persons.id != 3
+      @persons.destroy
+    else
+      # do nothing
+    end
     
     respond_to do |format|
       format.html { redirect_to(people_url) }
