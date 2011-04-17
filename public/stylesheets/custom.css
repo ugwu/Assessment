@@ -14,6 +14,11 @@ body {
   text-align:justify;	
 }
 
+#right
+ {
+  text-align:right;	
+}
+
 header {
   padding-top: 20px;
 }

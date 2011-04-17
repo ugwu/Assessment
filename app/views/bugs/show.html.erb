@@ -1,0 +1,25 @@
+
+
+<%if flash[:notice] == 'Bug was successfully created.'%>
+  <font color ='red'> <%=flash[:notice]%></font>
+<%else%>
+   <font color ='green'> <%=flash[:notice]%></font>
+<%end%>
+<p>
+  <b>Title:</b>
+  <%= @bug.title %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @bug.priority %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @bug.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_bug_path(@bug) %> |
+<%= link_to 'Back', bugs_path %>

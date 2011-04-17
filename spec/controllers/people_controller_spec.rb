@@ -93,7 +93,7 @@ describe PeopleController do
   describe "DELETE" do
     
      before(:each) do
-        @person = Factory(:person)
+       @person = Factory(:person)
      end
      
      it "should delete the user" do

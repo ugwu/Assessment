@@ -62,7 +62,7 @@ class PeopleController < ApplicationController
   
   def destroy
     @persons = Person.find(params[:id])
-    if @persons.id != 3
+    if [3,4,5].include?(@persons.id) == false
       @persons.destroy
     else
       # do nothing

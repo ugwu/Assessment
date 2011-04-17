@@ -12,11 +12,12 @@ namespace :db do
                  :email => "charlesdickens@foo.com",
                  :postcode => "SW1 7ED",
                  :msisdn => "07901111111")
-    20.times do |n|
+    10.times do |n|
       name  = Faker::Name.name
       email = "example-#{n+1}@rubyonrails.org"
       selected = ['Male', 'Female'].shuffle
       gender  =  selected[0]
+      age = 17
       Person.create!(:name => name, 
                    :surname => "Twist", 
                    :age => 17,

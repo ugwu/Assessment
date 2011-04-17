@@ -1,0 +1,28 @@
+<h1>Bugs</h1>
+
+
+<table border="1">
+  <tr>
+    <th>Title</th>
+    <th>Priority</th>
+    <th>Description</th>
+
+  </tr>
+
+<% @bug.each do |bug| %>
+  <tr>
+    <td><%= bug.title %></td>
+    <td><%= bug.priority %></td>
+	<td><%= bug.description %></td>
+	
+    <td><%= link_to 'Show', bug %></td>
+    <td><%= link_to 'Edit', edit_bug_path(bug) %></td>
+    <td><%= link_to 'Destroy', bug, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<p><%= link_to 'Add a new bug', new_bug_path %>
+
+
+<br />

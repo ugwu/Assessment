@@ -1,0 +1,45 @@
+<%= form_for @bug do |f| %>
+
+<% if @bug.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@bug.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+    <ul>
+    <% @bug.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<p></p>
+
+<table border="0">
+  <tr>
+    <td><%= f.label :title %></td>
+    <td><%= f.text_field :title %></td></p>
+  </tr>  
+  
+  <tr>
+    <td><%= f.label :priority %></td>
+    <td><%= f.select :priority, (['','P1 - Critical','P2 - High', 'P3 - Normal']).to_a.map(&:to_s) %>
+	</td></p>
+  </tr>
+ 
+  <tr>
+    <td> <%= f.label :description %></td>
+    <td><%= f.text_area :description, :size => "60x20" %></td></p>
+  </tr>
+
+</table>
+  <p>
+  <p>
+  <p>
+  <p>
+  <p> 
+  <p>
+  <p>
+  <p>    
+  <%= f.submit "Save" %>
+
+<% end %>

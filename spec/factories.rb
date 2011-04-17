@@ -10,3 +10,10 @@ Factory.define :person do |person|
   person.msisdn          "07943666999"
 end
 
+
+Factory.define :bug do |bug|
+  bug.title             "First bug"
+  bug.priority          "P2 - High"
+  bug.description       "This is the first bug"
+end
+

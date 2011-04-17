@@ -1,5 +1,6 @@
 Assessment::Application.routes.draw do
-
+  
+  resources :bugs
   resources :people
   root :to => 'people#index'
   

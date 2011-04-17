@@ -257,3 +257,104 @@ REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", 
 REQUESTING PAGE: GET http://www.example.com/people/46 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
 REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
 REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/11 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/17 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/23 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/29 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/35 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/41 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/47 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/63 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/64 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/65 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/66 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/67 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/68 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /people with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"34", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
+REQUESTING PAGE: GET http://www.example.com/people/74 with {} and HTTP headers {"HTTP_REFERER"=>"/people"}
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /people with {"commit"=>"Save", "person"=>{"name"=>"Tom", "postcode"=>"NW1 6RD", "gender"=>"Male", "msisdn"=>"07945696589", "income"=>"60000", "age"=>"", "surname"=>"Cruise", "email"=>"tomcruise@hollywood.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/people/new"}
