@@ -20,7 +20,7 @@ namespace :db do
       age = 17
       Person.create!(:name => name, 
                    :surname => "Twist", 
-                   :age => 17,
+                   :age => age,
                    :gender => gender,
                    :income => 35000,
                    :email => email,
