@@ -49,7 +49,7 @@ describe PeopleController do
       end
     end  
   end
-  
+
   describe "PUT 'update'" do
 
     before(:each) do
@@ -107,6 +107,29 @@ describe PeopleController do
         response.should redirect_to(people_path)
      end
   end
+  
+  
+  describe "ADDED BUGS" do
+    before :each do
+      @attr = {:name => "Oliver", 
+               :surname => "Twist", 
+               :age => 17,
+               :gender => "male",
+               :income => 35000,
+               :email => "charlesdickens@foo.com",
+               :postcode => "SW1 7ED",
+               :msisdn => "07901111111"}
+    end
+    
+    [0,15,131, -1, 40].each do |age|
+    it "should allow the age value of #{age}" do
+      @new_attr = @attr.merge(:age => age)
+      lambda do
+        post :create, :person => @new_attr
+      end.should change(Person, :count).by(1)
+    end  
+  end
+end
 end
 
 
